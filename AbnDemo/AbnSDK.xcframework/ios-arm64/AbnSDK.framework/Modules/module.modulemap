@@ -1,0 +1,11 @@
+framework module AbnSDK {
+  umbrella header "AbnSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module AbnSDK.Swift {
+  header "AbnSDK-Swift.h"
+  requires objc
+}
