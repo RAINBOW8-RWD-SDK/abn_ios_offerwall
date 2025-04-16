@@ -6,938 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AbnSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AbnSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "AbnSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "AdSupport",
-        "printedName": "AdSupport",
-        "declKind": "Import",
-        "moduleName": "AbnSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "OfferwallEventListener",
-        "printedName": "OfferwallEventListener",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "didAdDataLoaded",
-            "printedName": "didAdDataLoaded(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AdOfferwallView",
-                "printedName": "AbnSDK.AdOfferwallView",
-                "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AbnSDK@objc(pl)OfferwallEventListener(im)didAdDataLoaded:",
-            "mangledName": "$s6AbnSDK22OfferwallEventListenerP15didAdDataLoadedyyAA0gC4ViewCF",
-            "moduleName": "AbnSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AbnSDK.OfferwallEventListener>",
-            "sugared_genericSig": "<Self where Self : AbnSDK.OfferwallEventListener>",
-            "protocolReq": true,
-            "declAttributes": [
-              "Optional",
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didAdItemClicked",
-            "printedName": "didAdItemClicked(_:campaignId:campaignName:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AdOfferwallView",
-                "printedName": "AbnSDK.AdOfferwallView",
-                "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AbnSDK@objc(pl)OfferwallEventListener(im)didAdItemClicked:campaignId:campaignName:",
-            "mangledName": "$s6AbnSDK22OfferwallEventListenerP16didAdItemClicked_10campaignId0J4NameyAA0gC4ViewC_SiSStF",
-            "moduleName": "AbnSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : AbnSDK.OfferwallEventListener>",
-            "sugared_genericSig": "<Self where Self : AbnSDK.OfferwallEventListener>",
-            "protocolReq": true,
-            "declAttributes": [
-              "Optional",
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "c:@M@AbnSDK@objc(pl)OfferwallEventListener",
-        "mangledName": "$s6AbnSDK22OfferwallEventListenerP",
-        "moduleName": "AbnSDK",
-        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
-        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AdOfferwallView",
-        "printedName": "AdOfferwallView",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "offerwallListener",
-            "printedName": "offerwallListener",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any AbnSDK.OfferwallEventListener)?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvp",
-            "mangledName": "$s6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvp",
-            "moduleName": "AbnSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any AbnSDK.OfferwallEventListener)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OfferwallEventListener",
-                        "printedName": "any AbnSDK.OfferwallEventListener",
-                        "usr": "c:@M@AbnSDK@objc(pl)OfferwallEventListener"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvg",
-                "mangledName": "$s6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvg",
-                "moduleName": "AbnSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any AbnSDK.OfferwallEventListener)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OfferwallEventListener",
-                        "printedName": "any AbnSDK.OfferwallEventListener",
-                        "usr": "c:@M@AbnSDK@objc(pl)OfferwallEventListener"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvs",
-                "mangledName": "$s6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvs",
-                "moduleName": "AbnSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvM",
-                "mangledName": "$s6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvM",
-                "moduleName": "AbnSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(frame:viewController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AdOfferwallView",
-                "printedName": "AbnSDK.AdOfferwallView",
-                "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGRect",
-                "printedName": "CoreFoundation.CGRect",
-                "usr": "c:@S@CGRect"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView(im)initWithFrame:viewController:",
-            "mangledName": "$s6AbnSDK15AdOfferwallViewC5frame14viewControllerACSo6CGRectV_So06UIViewH0Ctcfc",
-            "moduleName": "AbnSDK",
-            "objc_name": "initWithFrame:viewController:",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "ObjC"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "loadData",
-            "printedName": "loadData()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView(im)loadData",
-            "mangledName": "$s6AbnSDK15AdOfferwallViewC8loadDatayyF",
-            "moduleName": "AbnSDK",
-            "declAttributes": [
-              "Final",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(frame:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AdOfferwallView",
-                "printedName": "AbnSDK.AdOfferwallView",
-                "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGRect",
-                "printedName": "CoreFoundation.CGRect",
-                "usr": "c:@S@CGRect"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView(im)initWithFrame:",
-            "mangledName": "$s6AbnSDK15AdOfferwallViewC5frameACSo6CGRectV_tcfc",
-            "moduleName": "AbnSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithFrame:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "webView",
-            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebView",
-                "printedName": "WebKit.WKWebView",
-                "usr": "c:objc(cs)WKWebView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKNavigationAction",
-                "printedName": "WebKit.WKNavigationAction",
-                "usr": "c:objc(cs)WKNavigationAction"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WKNavigationActionPolicy",
-                    "printedName": "WebKit.WKNavigationActionPolicy",
-                    "usr": "c:@E@WKNavigationActionPolicy"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AbnSDK@objc(cs)AdOfferwallView(im)webView:decidePolicyForNavigationAction:decisionHandler:",
-            "mangledName": "$s6AbnSDK15AdOfferwallViewC03webE0_15decidePolicyFor15decisionHandlerySo05WKWebE0C_So18WKNavigationActionCySo0mnH0VctF",
-            "moduleName": "AbnSDK",
-            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "webView",
-            "printedName": "webView(_:didFinish:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebView",
-                "printedName": "WebKit.WKWebView",
-                "usr": "c:objc(cs)WKWebView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "WebKit.WKNavigation?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WKNavigation",
-                    "printedName": "WebKit.WKNavigation",
-                    "usr": "c:objc(cs)WKNavigation"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AbnSDK@objc(cs)AdOfferwallView(im)webView:didFinishNavigation:",
-            "mangledName": "$s6AbnSDK15AdOfferwallViewC03webE0_9didFinishySo05WKWebE0C_So12WKNavigationCSgtF",
-            "moduleName": "AbnSDK",
-            "objc_name": "webView:didFinishNavigation:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "webView",
-            "printedName": "webView(_:createWebViewWith:for:windowFeatures:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "WebKit.WKWebView?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WKWebView",
-                    "printedName": "WebKit.WKWebView",
-                    "usr": "c:objc(cs)WKWebView"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebView",
-                "printedName": "WebKit.WKWebView",
-                "usr": "c:objc(cs)WKWebView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebViewConfiguration",
-                "printedName": "WebKit.WKWebViewConfiguration",
-                "usr": "c:objc(cs)WKWebViewConfiguration"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKNavigationAction",
-                "printedName": "WebKit.WKNavigationAction",
-                "usr": "c:objc(cs)WKNavigationAction"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWindowFeatures",
-                "printedName": "WebKit.WKWindowFeatures",
-                "usr": "c:objc(cs)WKWindowFeatures"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AbnSDK@objc(cs)AdOfferwallView(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
-            "mangledName": "$s6AbnSDK15AdOfferwallViewC03webE0_09createWebE4With3for14windowFeaturesSo05WKWebE0CSgAI_So0mE13ConfigurationCSo18WKNavigationActionCSo08WKWindowL0CtF",
-            "moduleName": "AbnSDK",
-            "objc_name": "webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "webViewDidClose",
-            "printedName": "webViewDidClose(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebView",
-                "printedName": "WebKit.WKWebView",
-                "usr": "c:objc(cs)WKWebView"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AbnSDK@objc(cs)AdOfferwallView(im)webViewDidClose:",
-            "mangledName": "$s6AbnSDK15AdOfferwallViewC03webE8DidCloseyySo05WKWebE0CF",
-            "moduleName": "AbnSDK",
-            "objc_name": "webViewDidClose:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "userContentController",
-            "printedName": "userContentController(_:didReceive:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKUserContentController",
-                "printedName": "WebKit.WKUserContentController",
-                "usr": "c:objc(cs)WKUserContentController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKScriptMessage",
-                "printedName": "WebKit.WKScriptMessage",
-                "usr": "c:objc(cs)WKScriptMessage"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@AbnSDK@objc(cs)AdOfferwallView(im)userContentController:didReceiveScriptMessage:",
-            "mangledName": "$s6AbnSDK15AdOfferwallViewC21userContentController_10didReceiveySo06WKUsergH0C_So15WKScriptMessageCtF",
-            "moduleName": "AbnSDK",
-            "objc_name": "userContentController:didReceiveScriptMessage:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView",
-        "mangledName": "$s6AbnSDK15AdOfferwallViewC",
-        "moduleName": "AbnSDK",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "Final",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIView",
-        "hasMissingDesignatedInitializers": true,
-        "superclassNames": [
-          "UIKit.UIView",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AbnSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AdOfferwallViewController",
-        "printedName": "AdOfferwallViewController",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "viewDidLoad",
-            "printedName": "viewDidLoad()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallViewController(im)viewDidLoad",
-            "mangledName": "$s6AbnSDK25AdOfferwallViewControllerC11viewDidLoadyyF",
-            "moduleName": "AbnSDK",
-            "overriding": true,
-            "objc_name": "viewDidLoad",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(nibName:bundle:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AdOfferwallViewController",
-                "printedName": "AbnSDK.AdOfferwallViewController",
-                "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Bundle?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bundle",
-                    "printedName": "Foundation.Bundle",
-                    "usr": "c:objc(cs)NSBundle"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallViewController(im)initWithNibName:bundle:",
-            "mangledName": "$s6AbnSDK25AdOfferwallViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
-            "moduleName": "AbnSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithNibName:bundle:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(coder:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AbnSDK.AdOfferwallViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AdOfferwallViewController",
-                    "printedName": "AbnSDK.AdOfferwallViewController",
-                    "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSCoder",
-                "printedName": "Foundation.NSCoder",
-                "usr": "c:objc(cs)NSCoder"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallViewController(im)initWithCoder:",
-            "mangledName": "$s6AbnSDK25AdOfferwallViewControllerC5coderACSgSo7NSCoderC_tcfc",
-            "moduleName": "AbnSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithCoder:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Required"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallViewController",
-        "mangledName": "$s6AbnSDK25AdOfferwallViewControllerC",
-        "moduleName": "AbnSDK",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "Final",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIViewController",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIViewController",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1783,6 +851,931 @@
       },
       {
         "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "AbnSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "AbnSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OfferwallEventListener",
+        "printedName": "OfferwallEventListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didAdDataLoaded",
+            "printedName": "didAdDataLoaded(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdOfferwallView",
+                "printedName": "AbnSDK.AdOfferwallView",
+                "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AbnSDK@objc(pl)OfferwallEventListener(im)didAdDataLoaded:",
+            "mangledName": "$s6AbnSDK22OfferwallEventListenerP15didAdDataLoadedyyAA0gC4ViewCF",
+            "moduleName": "AbnSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AbnSDK.OfferwallEventListener>",
+            "sugared_genericSig": "<Self where Self : AbnSDK.OfferwallEventListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didAdItemClicked",
+            "printedName": "didAdItemClicked(_:campaignId:campaignName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdOfferwallView",
+                "printedName": "AbnSDK.AdOfferwallView",
+                "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AbnSDK@objc(pl)OfferwallEventListener(im)didAdItemClicked:campaignId:campaignName:",
+            "mangledName": "$s6AbnSDK22OfferwallEventListenerP16didAdItemClicked_10campaignId0J4NameyAA0gC4ViewC_SiSStF",
+            "moduleName": "AbnSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AbnSDK.OfferwallEventListener>",
+            "sugared_genericSig": "<Self where Self : AbnSDK.OfferwallEventListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@AbnSDK@objc(pl)OfferwallEventListener",
+        "mangledName": "$s6AbnSDK22OfferwallEventListenerP",
+        "moduleName": "AbnSDK",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdOfferwallView",
+        "printedName": "AdOfferwallView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "offerwallListener",
+            "printedName": "offerwallListener",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any AbnSDK.OfferwallEventListener)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvp",
+            "mangledName": "$s6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvp",
+            "moduleName": "AbnSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AbnSDK.OfferwallEventListener)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OfferwallEventListener",
+                        "printedName": "any AbnSDK.OfferwallEventListener",
+                        "usr": "c:@M@AbnSDK@objc(pl)OfferwallEventListener"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvg",
+                "mangledName": "$s6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvg",
+                "moduleName": "AbnSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AbnSDK.OfferwallEventListener)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OfferwallEventListener",
+                        "printedName": "any AbnSDK.OfferwallEventListener",
+                        "usr": "c:@M@AbnSDK@objc(pl)OfferwallEventListener"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvs",
+                "mangledName": "$s6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvs",
+                "moduleName": "AbnSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvM",
+                "mangledName": "$s6AbnSDK15AdOfferwallViewC17offerwallListenerAA0d5EventG0_pSgvM",
+                "moduleName": "AbnSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdOfferwallView",
+                "printedName": "AbnSDK.AdOfferwallView",
+                "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView(im)initWithFrame:viewController:",
+            "mangledName": "$s6AbnSDK15AdOfferwallViewC5frame14viewControllerACSo6CGRectV_So06UIViewH0Ctcfc",
+            "moduleName": "AbnSDK",
+            "objc_name": "initWithFrame:viewController:",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadData",
+            "printedName": "loadData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView(im)loadData",
+            "mangledName": "$s6AbnSDK15AdOfferwallViewC8loadDatayyF",
+            "moduleName": "AbnSDK",
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdOfferwallView",
+                "printedName": "AbnSDK.AdOfferwallView",
+                "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView(im)initWithFrame:",
+            "mangledName": "$s6AbnSDK15AdOfferwallViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "AbnSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AbnSDK@objc(cs)AdOfferwallView(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s6AbnSDK15AdOfferwallViewC03webE0_15decidePolicyFor15decisionHandlerySo05WKWebE0C_So18WKNavigationActionCySo0mnH0VctF",
+            "moduleName": "AbnSDK",
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AbnSDK@objc(cs)AdOfferwallView(im)webView:didFinishNavigation:",
+            "mangledName": "$s6AbnSDK15AdOfferwallViewC03webE0_9didFinishySo05WKWebE0C_So12WKNavigationCSgtF",
+            "moduleName": "AbnSDK",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:createWebViewWith:for:windowFeatures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWindowFeatures",
+                "printedName": "WebKit.WKWindowFeatures",
+                "usr": "c:objc(cs)WKWindowFeatures"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AbnSDK@objc(cs)AdOfferwallView(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "mangledName": "$s6AbnSDK15AdOfferwallViewC03webE0_09createWebE4With3for14windowFeaturesSo05WKWebE0CSgAI_So0mE13ConfigurationCSo18WKNavigationActionCSo08WKWindowL0CtF",
+            "moduleName": "AbnSDK",
+            "objc_name": "webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webViewDidClose",
+            "printedName": "webViewDidClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AbnSDK@objc(cs)AdOfferwallView(im)webViewDidClose:",
+            "mangledName": "$s6AbnSDK15AdOfferwallViewC03webE8DidCloseyySo05WKWebE0CF",
+            "moduleName": "AbnSDK",
+            "objc_name": "webViewDidClose:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AbnSDK@objc(cs)AdOfferwallView(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s6AbnSDK15AdOfferwallViewC21userContentController_10didReceiveySo06WKUsergH0C_So15WKScriptMessageCtF",
+            "moduleName": "AbnSDK",
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallView",
+        "mangledName": "$s6AbnSDK15AdOfferwallViewC",
+        "moduleName": "AbnSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbnSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdOfferwallViewController",
+        "printedName": "AdOfferwallViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallViewController(im)viewDidLoad",
+            "mangledName": "$s6AbnSDK25AdOfferwallViewControllerC11viewDidLoadyyF",
+            "moduleName": "AbnSDK",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdOfferwallViewController",
+                "printedName": "AbnSDK.AdOfferwallViewController",
+                "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s6AbnSDK25AdOfferwallViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "AbnSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AbnSDK.AdOfferwallViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdOfferwallViewController",
+                    "printedName": "AbnSDK.AdOfferwallViewController",
+                    "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallViewController(im)initWithCoder:",
+            "mangledName": "$s6AbnSDK25AdOfferwallViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "AbnSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AbnSDK@objc(cs)AdOfferwallViewController",
+        "mangledName": "$s6AbnSDK25AdOfferwallViewControllerC",
+        "moduleName": "AbnSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbnSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AbnSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1796,53 +1789,18 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 406,
-      "length": 1,
-      "value": "0"
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 98,
+      "length": 25,
+      "value": "\"https:\/\/pi.acrosspf.com\""
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 462,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
-      "kind": "IntegerLiteral",
-      "offset": 355,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 653,
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 142,
       "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
-      "kind": "BooleanLiteral",
-      "offset": 740,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
-      "kind": "FloatLiteral",
-      "offset": 1190,
-      "length": 4,
-      "value": "0.25"
-    },
-    {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/AdOfferwallView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 525,
-      "length": 1,
-      "value": "1"
+      "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/AbnSession.swift",
@@ -1850,6 +1808,13 @@
       "offset": 420,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/AdOfferwallView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 525,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
@@ -2027,18 +1992,46 @@
       "value": "16"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 98,
-      "length": 25,
-      "value": "\"https:\/\/pi.acrosspf.com\""
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 142,
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 462,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 355,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 653,
       "length": 5,
-      "value": "\"iOS\""
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 740,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 1190,
+      "length": 4,
+      "value": "0.25"
     }
   ]
 }
