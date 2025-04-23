@@ -26,13 +26,15 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 @objc public protocol OfferwallEventListener : ObjectiveC.NSObjectProtocol {
-  @objc optional func didAdDataLoaded(_ offerwallView: AbnSDK.AdOfferwallView)
-  @objc optional func didAdItemClicked(_ offerwallView: AbnSDK.AdOfferwallView, campaignId: Swift.Int, campaignName: Swift.String)
+  @objc optional func didAdDataLoaded()
+  @objc optional func didAdItemClicked(campaignId: Swift.Int, campaignName: Swift.String)
+  @objc optional func didOfferwallRemoved()
 }
 @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency final public class AdOfferwallView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency weak final public var offerwallListener: (any AbnSDK.OfferwallEventListener)?
   @objc @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect, viewController: UIKit.UIViewController)
   @objc @_Concurrency.MainActor @preconcurrency final public func loadData()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func didMoveToSuperview()
   @objc deinit
 }
 extension AbnSDK.AdOfferwallView : WebKit.WKNavigationDelegate {

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45A93D862DAF872F00FA9C4B /* AbnSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A93D852DAF872F00FA9C4B /* AbnSDK.xcframework */; };
-		45A93D872DAF872F00FA9C4B /* AbnSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45A93D852DAF872F00FA9C4B /* AbnSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4557D9912DB8D683005678DF /* AbnSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4557D9902DB8D683005678DF /* AbnSDK.xcframework */; };
+		4557D9922DB8D683005678DF /* AbnSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4557D9902DB8D683005678DF /* AbnSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +18,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				45A93D872DAF872F00FA9C4B /* AbnSDK.xcframework in Embed Frameworks */,
+				4557D9922DB8D683005678DF /* AbnSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -26,8 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4557D9902DB8D683005678DF /* AbnSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AbnSDK.xcframework; sourceTree = "<group>"; };
 		45A93D412DAF84A700FA9C4B /* AbnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		45A93D852DAF872F00FA9C4B /* AbnSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AbnSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -56,18 +56,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A93D862DAF872F00FA9C4B /* AbnSDK.xcframework in Frameworks */,
+				4557D9912DB8D683005678DF /* AbnSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4557D98F2DB8D682005678DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4557D9902DB8D683005678DF /* AbnSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		45A93D382DAF84A700FA9C4B = {
 			isa = PBXGroup;
 			children = (
 				45A93D432DAF84A700FA9C4B /* AbnDemo */,
-				45A93D842DAF872F00FA9C4B /* Frameworks */,
+				4557D98F2DB8D682005678DF /* Frameworks */,
 				45A93D422DAF84A700FA9C4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,14 +86,6 @@
 				45A93D412DAF84A700FA9C4B /* AbnDemo.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		45A93D842DAF872F00FA9C4B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				45A93D852DAF872F00FA9C4B /* AbnSDK.xcframework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -11,6 +11,12 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency final public class AdOfferwallViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AbnSession : ObjectiveC.NSObject {
   @objc public static let shared: AbnSDK.AbnSession
   @objc public var appId: Swift.String?
@@ -26,13 +32,15 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 @objc public protocol OfferwallEventListener : ObjectiveC.NSObjectProtocol {
-  @objc optional func didAdDataLoaded(_ offerwallView: AbnSDK.AdOfferwallView)
-  @objc optional func didAdItemClicked(_ offerwallView: AbnSDK.AdOfferwallView, campaignId: Swift.Int, campaignName: Swift.String)
+  @objc optional func didAdDataLoaded()
+  @objc optional func didAdItemClicked(campaignId: Swift.Int, campaignName: Swift.String)
+  @objc optional func didOfferwallRemoved()
 }
 @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency final public class AdOfferwallView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency weak final public var offerwallListener: (any AbnSDK.OfferwallEventListener)?
   @objc @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect, viewController: UIKit.UIViewController)
   @objc @_Concurrency.MainActor @preconcurrency final public func loadData()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func didMoveToSuperview()
   @objc deinit
 }
 extension AbnSDK.AdOfferwallView : WebKit.WKNavigationDelegate {
@@ -45,10 +53,4 @@ extension AbnSDK.AdOfferwallView : WebKit.WKUIDelegate {
 }
 extension AbnSDK.AdOfferwallView : WebKit.WKScriptMessageHandler {
   @_Concurrency.MainActor @preconcurrency @objc final public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
-}
-@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency final public class AdOfferwallViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
 }
