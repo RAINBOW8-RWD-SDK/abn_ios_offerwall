@@ -190,7 +190,6 @@ struct OfferwallViewController : UIViewControllerRepresentable {
     }
 
     func updateUIViewController(_ uiViewController: AdOfferwallViewController, context: Context) {
-        uiViewController.loadOfferwall()
     }
 }
 

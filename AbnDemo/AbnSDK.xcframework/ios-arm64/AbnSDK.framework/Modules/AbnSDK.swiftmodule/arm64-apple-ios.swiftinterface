@@ -50,6 +50,7 @@ extension AbnSDK.AdOfferwallView : WebKit.WKScriptMessageHandler {
 }
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency final public class AdOfferwallViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
