@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
         let session = AbnSession.shared
         session.appId = "2950ba64-2cd7-4dd6-8dc3-5496bc87887d"
-        session.userId = "testUserId"
+        session.userId = "testUserId2"
     }
     
     override func viewDidAppear(_ animated: Bool) {

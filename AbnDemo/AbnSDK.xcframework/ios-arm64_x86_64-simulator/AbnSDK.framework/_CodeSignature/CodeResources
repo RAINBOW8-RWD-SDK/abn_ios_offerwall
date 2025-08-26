@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AbnSDK-Swift.h</key>
 		<data>
-		Emc4+CQ5Lkk85BzRS9j2HjqemLM=
+		DiHvZy89TXP2LlmGJcLhzhv+5JY=
 		</data>
 		<key>Headers/AbnSDK.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CzaJy5RbbJ6WT0uuy9c38Gx5FqI=
+		Odt8J4sKryLV/QOmXVoCB+21XaM=
 		</data>
 		<key>Modules/AbnSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		S36p7TDq0LXElkjyl4ItxJN36Tw=
+		33qMTdrFQMxydAkNBhJhHXurgp8=
 		</data>
 		<key>Modules/AbnSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		/Kqx/5FEvm6iWMTM2Og8WQ5x4Iw=
+		R0Tq6zMGIRL8p4WA3KZcC6X1Xn4=
 		</data>
 		<key>Modules/AbnSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jQ9u1gW6UKImq0Z0600r5o8M9aI=
+		e4D5hT6v7N9GwcjZTL3URLiTPqg=
 		</data>
 		<key>Modules/AbnSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/Kqx/5FEvm6iWMTM2Og8WQ5x4Iw=
+		R0Tq6zMGIRL8p4WA3KZcC6X1Xn4=
 		</data>
 		<key>Modules/AbnSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		E0uM+L5waUFSka1sNXmE4LiizH8=
+		qToOZfB+xSame8UqV0yWt4/aeHY=
 		</data>
 		<key>Modules/AbnSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		S36p7TDq0LXElkjyl4ItxJN36Tw=
+		33qMTdrFQMxydAkNBhJhHXurgp8=
 		</data>
 		<key>Modules/AbnSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7f7FqQIup/Q2gcwXw8BViXDfSd8=
+		w5YG3JGE+/ExDBxqi6UbOjPBUwg=
 		</data>
 		<key>Modules/AbnSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2y3pjq2nWnmkNVporle442OL4No=
+		96ctJsvdqP1X+SRRc655bHdKlvM=
 		</data>
 		<key>Modules/AbnSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7f7FqQIup/Q2gcwXw8BViXDfSd8=
+		w5YG3JGE+/ExDBxqi6UbOjPBUwg=
 		</data>
 		<key>Modules/AbnSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		21Tf99L15K1gn9dkF84cpOnUHY0=
+		OW30V95Hbvc436p6riBEfbbuUdc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,11 +67,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Emc4+CQ5Lkk85BzRS9j2HjqemLM=
+			DiHvZy89TXP2LlmGJcLhzhv+5JY=
 			</data>
 			<key>hash2</key>
 			<data>
-			lHNXSdxN85mlORv+VsuaeLihq1tWvJXp6fWS+3xcHfU=
+			F9A0DGhcP/UgWyks3h/6sVNG8mE/jLc7xKqvbmRSKk0=
 			</data>
 		</dict>
 		<key>Headers/AbnSDK.h</key>
@@ -89,110 +89,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			S36p7TDq0LXElkjyl4ItxJN36Tw=
+			33qMTdrFQMxydAkNBhJhHXurgp8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q6x+B6wCAhOyzvTY0KMix6NPIBcAUdJs6W9C/YDi0A4=
+			hFktJvW0IA5T3frzBwNIP6a76e3dzij0av0RDpq3Mx0=
 			</data>
 		</dict>
 		<key>Modules/AbnSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/Kqx/5FEvm6iWMTM2Og8WQ5x4Iw=
+			R0Tq6zMGIRL8p4WA3KZcC6X1Xn4=
 			</data>
 			<key>hash2</key>
 			<data>
-			HccZR7BIojvhLEDwEfipOtz306YIGxyo3bE3TD6SQG0=
+			00GlQJf8+Pab+IZy/QUbGRRPX+qD1umWYEOkSTGHnTI=
 			</data>
 		</dict>
 		<key>Modules/AbnSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jQ9u1gW6UKImq0Z0600r5o8M9aI=
+			e4D5hT6v7N9GwcjZTL3URLiTPqg=
 			</data>
 			<key>hash2</key>
 			<data>
-			CjGkpMtv2EKKehA3cqS529LrCJMl/kJjYeHW2dPcGHg=
+			aNQ4fP5AfBPCZoR1EZUVtVDE7BkrQf69cglOwD1FTbs=
 			</data>
 		</dict>
 		<key>Modules/AbnSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/Kqx/5FEvm6iWMTM2Og8WQ5x4Iw=
+			R0Tq6zMGIRL8p4WA3KZcC6X1Xn4=
 			</data>
 			<key>hash2</key>
 			<data>
-			HccZR7BIojvhLEDwEfipOtz306YIGxyo3bE3TD6SQG0=
+			00GlQJf8+Pab+IZy/QUbGRRPX+qD1umWYEOkSTGHnTI=
 			</data>
 		</dict>
 		<key>Modules/AbnSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E0uM+L5waUFSka1sNXmE4LiizH8=
+			qToOZfB+xSame8UqV0yWt4/aeHY=
 			</data>
 			<key>hash2</key>
 			<data>
-			dGx74WDoNvxDAgueLxili2KaZTkiQQPcqXvCYJZYGEw=
+			UFzD+/ld2FYjwXjmT9zil0W7NmnLvgEV2vG43Rarhrk=
 			</data>
 		</dict>
 		<key>Modules/AbnSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S36p7TDq0LXElkjyl4ItxJN36Tw=
+			33qMTdrFQMxydAkNBhJhHXurgp8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q6x+B6wCAhOyzvTY0KMix6NPIBcAUdJs6W9C/YDi0A4=
+			hFktJvW0IA5T3frzBwNIP6a76e3dzij0av0RDpq3Mx0=
 			</data>
 		</dict>
 		<key>Modules/AbnSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7f7FqQIup/Q2gcwXw8BViXDfSd8=
+			w5YG3JGE+/ExDBxqi6UbOjPBUwg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gx0aE/Ns6OB1iCp4cNPm10CKh/E+vLGdmFWDlhgKUQ0=
+			thpQw2842XEbaygiQtwL+z8lKUpUVhgUucyUV+8qNAw=
 			</data>
 		</dict>
 		<key>Modules/AbnSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2y3pjq2nWnmkNVporle442OL4No=
+			96ctJsvdqP1X+SRRc655bHdKlvM=
 			</data>
 			<key>hash2</key>
 			<data>
-			YNhbdtxyOEOyhNa1v/ki+5lJiDJ2kYZRbmwlI1qKGCU=
+			dBMWxXqKwPDgnEGYe9VeQh6kxwRYFT7wSp1KTJzz6LA=
 			</data>
 		</dict>
 		<key>Modules/AbnSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7f7FqQIup/Q2gcwXw8BViXDfSd8=
+			w5YG3JGE+/ExDBxqi6UbOjPBUwg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gx0aE/Ns6OB1iCp4cNPm10CKh/E+vLGdmFWDlhgKUQ0=
+			thpQw2842XEbaygiQtwL+z8lKUpUVhgUucyUV+8qNAw=
 			</data>
 		</dict>
 		<key>Modules/AbnSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			21Tf99L15K1gn9dkF84cpOnUHY0=
+			OW30V95Hbvc436p6riBEfbbuUdc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wjn3pGEGoi3jTEoR4HRU84OFLxSoK4MmDRjIZw/W724=
+			xFhE6LTZH1dCxd5WOk8UKczTl2Ut7nUziMfqV8+R53M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

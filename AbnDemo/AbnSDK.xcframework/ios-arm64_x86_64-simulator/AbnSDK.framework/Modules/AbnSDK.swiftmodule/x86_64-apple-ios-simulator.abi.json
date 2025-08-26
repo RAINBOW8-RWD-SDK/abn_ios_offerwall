@@ -1867,252 +1867,252 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/AbnSession.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/AbnSession.swift",
       "kind": "BooleanLiteral",
       "offset": 420,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/AdOfferwallView.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/AdOfferwallView.swift",
       "kind": "IntegerLiteral",
       "offset": 1011,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/AdOfferwallView.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/AdOfferwallView.swift",
       "kind": "BooleanLiteral",
       "offset": 1071,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 479,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 830,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
       "kind": "FloatLiteral",
       "offset": 1009,
       "length": 3,
       "value": "1.5"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1034,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1250,
       "length": 3,
       "value": "500"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1336,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
       "kind": "FloatLiteral",
       "offset": 1400,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1548,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1618,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1653,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2028,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
       "kind": "FloatLiteral",
       "offset": 2055,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2081,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/BottomSheetViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2104,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
       "kind": "StringLiteral",
       "offset": 377,
       "length": 46,
       "value": "\" [필수] 개인정보 제3자 제공 동의\""
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
       "kind": "StringLiteral",
       "offset": 483,
       "length": 23,
       "value": "\"checkmark.square.fill\""
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
       "kind": "StringLiteral",
       "offset": 631,
       "length": 8,
       "value": "\"square\""
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 746,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 899,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
       "kind": "StringLiteral",
       "offset": 1055,
       "length": 31,
       "value": "\"동의하고 포인트 받기\""
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1132,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1287,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1406,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
       "kind": "StringLiteral",
       "offset": 1549,
       "length": 11,
       "value": "\"다음에\""
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/ConsentSheetViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1685,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/Constants.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 98,
       "length": 25,
       "value": "\"https:\/\/pi.acrosspf.com\""
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/Constants.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 5,
       "value": "\"iOS\""
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/HighlightButton.swift",
       "kind": "IntegerLiteral",
       "offset": 406,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/HighlightButton.swift",
       "kind": "IntegerLiteral",
       "offset": 462,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/HighlightButton.swift",
       "kind": "IntegerLiteral",
       "offset": 355,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/HighlightButton.swift",
       "kind": "BooleanLiteral",
       "offset": 653,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/HighlightButton.swift",
       "kind": "BooleanLiteral",
       "offset": 740,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/Abn\/AbnSDK\/AbnSDK\/HighlightButton.swift",
+      "filePath": "\/Users\/chosunchul\/Documents\/xcode\/abn\/abn-ios-sdk\/AbnSDK\/AbnSDK\/HighlightButton.swift",
       "kind": "FloatLiteral",
       "offset": 1190,
       "length": 4,
